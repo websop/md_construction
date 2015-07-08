@@ -1,0 +1,69 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* style */
+body {background: #000; font-family: Georgia, "Times New Roman", Times, serif; font-size: 75%}
+#wrap {position: relative; margin: 0 auto}
+	.w1440 {width: 1440px;}
+	.h939 {height: 939px;}
+#screenshot {position: absolute; left: 0; top: 0; z-index: 1; overflow: hidden}
+#info {background: url(images/info.png) no-repeat left top; position: absolute; right: 0; top: 0; z-index: 2; color: #fff}
+	#logo {position: absolute; right: 0; top: 74px; border-right: 3px solid #fff}
+	.text {position: absolute; right: 28px; top: 215px; text-align: right; width: 460px; font-style:italic; line-height: 1.3em; font-size: 1.167em}
+	.text h1 {font-size: 1.583em; margin: 0 0 20px; font-style: normal; font-weight: normal}
+	.subs {position: absolute; right: 28px; bottom: 100px}
+		.subs .textinput {font-style: italic; border: none;padding: 5px 10px; color: #0BB6E0; width: 200px}
+		.subs .button {border: none; background: #fff; text-transform:uppercase; padding: 5px 10px; color: #0BB6E0;}
+		.social-fb,
+		.social-tw {width: 40px; height: 40px; display: block; position: absolute; right: 0; top: 40px; background:url(images/facebook.png) no-repeat left top; text-indent: -500em}
+		.social-tw {right: 50px; background:url(images/twitter.png) no-repeat left top}
+	
+#log {position: absolute; left: 0; top: 0; z-index: 3}
