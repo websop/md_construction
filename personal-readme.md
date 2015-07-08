@@ -1,0 +1,1 @@
+A Drupal template
